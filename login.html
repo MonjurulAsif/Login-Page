@@ -7,24 +7,49 @@
     <link rel="shortcut icon" href="login.jpg" type="image/x-icon">
 </head>
 <body>
-    <form action="">
+    <form action="https://github.com/MonjurulAsif/Login-Page/blob/main/login.html" method="post">
         <fieldset>
             <legend>Login Page:</legend>
             <label for="fa">Enter your fast name:</label>
             <input type="text" name="Fastname" id="fa" placeholder="Fast Name">
-            <br>
+            <br><br>
             <label for="la">Enter your last name:</label>
             <input type="text" name="Lastname" id="la" placeholder="Last Name">
-            <br>
+            <br><br>
             Gender:
             <br>
             <input type="radio" name="Gender" id="">Male
             <input type="radio" name="Gender" id="">Female
             <input type="radio" name="Gender" id="">Others.
-            <br>
-            
+            <br><br>
+            <label for="un">Select your University:</label>
+            <select name="University" id="un">
+                <option value="DU">DU</option>
+                <option value="JU">JU</option>
+                <option value="JNU">JNU</option>
+                <option value="SUST">SUST</option>
+                <option value="NITER">NITER</option>
+            </select>
+            <br><br>
+            <label for="di">Enter your district:</label>
+            <input type="text" name="district" id="di" list="d">
+            <datalist id="d">
+                <option value="Dhaka"></option>
+                <option value="Tangai"></option>
+                <option value="Bogura"></option>
+                <option value="Sylhet"></option>
+                <option value="Mymensingh"></option>
+            </datalist>
+            <br><br>
+            <label for="pa">Enter your Password:</label>
+            <input type="password" name="Password" id="pa">
+            <br><br>
+            <input type="submit" value="send">
+            <br><br>
+            file:///C:/Github/Login-Page/login.html?Fastname=M+H&Lastname=Asif&Gender=on&University=NITER&district=Tangai&Password=1234#
 
         </fieldset>
+
     </form>
 </body>
 </html>
